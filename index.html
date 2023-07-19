@@ -8,6 +8,10 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="node_modules/@splidejs/splide/dist/css/splide-core.min.css">
+  <link rel="stylesheet" href="./node_modules/lineicons/web-font/lineicons.css" />
+  <script src="resources/js/home.js"></script>
+  <script src="node_modules/@splidejs/splide/dist/js/splide.min.js"></script>
 </head>
 <body>
   <header id="masthead">
@@ -24,5 +28,69 @@
       </nav>
     </div>
   </header>
+
+  <main>
+    <section class="fold-1">
+      <div class="row-container">
+        <h1 class="subtitle">web design & development agency</h1>
+        <h2 class="title">good evening</h2>
+        <p>the creative agency that inspires epic, unique and creative thinking on a daily basis.</p>
+        <a href="#" class="readmore">See Our Work</a>
+      </div>
+    </section>
+    
+    <section class="fold-2">
+      <div class="notification">
+        <div class="notification-header">
+          <img src="resources/images/personal-photo.jpg" alt="">
+          <p>Reminder:</p>
+        </div>
+        <div class="notification-text">
+          <p>jardesigns starts it's south yorkshire expansion</p>
+          <a href="#">Read More</a>
+        </div>
+      </div>
+      <h2 class="subtitle">growing businesses and brands <span>we work with</span></h2>
+      <div class="splide" id="clients-slider">
+        <div class="splide__arrows">
+          <button class="splide__arrow splide__arrow--prev">
+            <i class="lni lni-chevron-left-circle"></i>
+          </button>
+          <button class="splide__arrow splide__arrow--next">
+            <i class="lni lni-chevron-right-circle"></i>
+          </button>
+        </div>
+        <div class="splide__track">
+          <ul class="splide__list">
+            <li class="splide__slide">
+              <div class="img-container">
+                <img src="resources/images/temp-business-logo.png" alt="">
+              </div>
+            </li>
+            <li class="splide__slide">
+              <div class="img-container">
+                <img src="resources/images/temp-business-logo.png" alt="">
+              </div>
+            </li>
+            <li class="splide__slide">
+              <div class="img-container">
+                <img src="resources/images/temp-business-logo.png" alt="">
+              </div>
+            </li>
+            <li class="splide__slide">
+              <div class="img-container">
+                <img src="resources/images/temp-business-logo.png" alt="">
+              </div>
+            </li>
+            <li class="splide__slide">
+              <div class="img-container">
+                <img src="resources/images/temp-business-logo.png" alt="">
+              </div>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </section>
+  </main>
 </body>
 </html>
