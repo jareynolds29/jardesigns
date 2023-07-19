@@ -1,0 +1,90 @@
+:root {
+    --white: #fff;
+    --black: #000;
+    --crimson: #DC143C;
+    --font: 'Poppins', sans-serif;
+}
+
+/* Generic Style */
+body {
+    background: var(--white);
+    font-family: var(--font);
+    margin: 0;
+}
+
+.title {
+    font-size: 80px;
+    line-height: 90px;
+}
+
+.subtitle {
+    font-size: 42px;
+    line-height: 52px;
+}
+
+p {
+    font-size: 18px;
+    line-height: 28px;
+}
+
+.row-container {
+    max-width: 1380px;
+    margin: 0 auto;
+}
+
+.readmore {
+    border-radius: 64px;
+    border: solid 3px var(--crimson);
+    background: none;
+    color: var(--crimson);
+}
+
+.logo {
+    font-size: 24px;
+    line-height: 34px;
+    color: var(--white);
+}
+
+
+/* Masthead/Navbar Style */
+#masthead {
+    background: var(--black);
+}
+
+#masthead .row-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#masthead ul {
+    display: flex;
+    list-style: none;
+    gap: 25px;
+}
+
+#masthead ul li a {
+    text-decoration: none;
+    color: var(--crimson);
+    font-size: 20px;
+    line-height: 30px;
+    transition: all .5s ease;
+}
+
+#masthead ul li {
+    padding: 5px 10px;
+}
+
+#masthead ul li:last-child {
+    border: solid 2px var(--crimson);
+    border-radius: 64px;
+    transition: all .5s ease;
+}
+
+#masthead ul li:hover a {
+    color: var(--white);
+}
+
+#masthead ul li:hover:last-child {
+    border: solid 2px var(--white);
+}
